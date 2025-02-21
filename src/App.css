@@ -1,0 +1,70 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+.subtitle {
+  color: rgb(1, 55, 235);
+  font-family: "Brush Script MT", cursive, sans-serif;
+  font-weight: normal;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.menu-price {
+  color: rgb(90, 37, 225);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.menu-item-name {
+  color: rgb(239, 54, 54);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.menu-description {
+  color: rgb(255, 145, 55);
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  white-space: normal;
+  text-align: left;
+}
+
+.cart-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 2px solid #ddd;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.subtotal-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 10px;
+}
+
